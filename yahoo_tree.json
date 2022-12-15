@@ -1,0 +1,381 @@
+{
+ "sector": {
+  "children": [
+   {
+    "Basic Materials": {
+     "children": [
+      {
+       "Agricultural Inputs": {
+        "children": [
+         "CTVA"
+        ]
+       }
+      },
+      {
+       "Gold": {
+        "children": [
+         "AUST"
+        ]
+       }
+      },
+      {
+       "Other Industrial Metals & Mining": {
+        "children": [
+         "RIO"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Communication Services": {
+     "children": [
+      {
+       "Broadcasting": {
+        "children": [
+         "LSXMK"
+        ]
+       }
+      },
+      {
+       "Internet Content & Information": {
+        "children": [
+         "ZDGE"
+        ]
+       }
+      },
+      {
+       "Telecom Services": {
+        "children": [
+         "VIV"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Consumer Cyclical": {
+     "children": [
+      {
+       "Auto Manufacturers": {
+        "children": [
+         "HYZN"
+        ]
+       }
+      },
+      {
+       "Auto Parts": {
+        "children": [
+         "UFAB"
+        ]
+       }
+      },
+      {
+       "Department Stores": {
+        "children": [
+         "M"
+        ]
+       }
+      },
+      {
+       "Footwear & Accessories": {
+        "children": [
+         "SHOO"
+        ]
+       }
+      },
+      {
+       "Gambling": {
+        "children": [
+         "SBET"
+        ]
+       }
+      },
+      {
+       "Leisure": {
+        "children": [
+         "SEAS"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Consumer Defensive": {
+     "children": [
+      {
+       "Confectioners": {
+        "children": [
+         "RMCF"
+        ]
+       }
+      },
+      {
+       "Packaged Foods": {
+        "children": [
+         "BRID"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Energy": {
+     "children": [
+      {
+       "Oil & Gas E&P": {
+        "children": [
+         "HPK",
+         "MTDR"
+        ]
+       }
+      },
+      {
+       "Oil & Gas Equipment & Services": {
+        "children": [
+         "PUMP"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Financial Services": {
+     "children": [
+      {
+       "Banks\u2014Diversified": {
+        "children": [
+         "MUFG"
+        ]
+       }
+      },
+      {
+       "Banks\u2014Regional": {
+        "children": [
+         "AMAL",
+         "BANF",
+         "CBU",
+         "CZNC",
+         "LCNB"
+        ]
+       }
+      },
+      {
+       "Shell Companies": {
+        "children": [
+         "IOAC",
+         "MBSC"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Healthcare": {
+     "children": [
+      {
+       "Biotechnology": {
+        "children": [
+         "APLT",
+         "CRBU",
+         "HOWL",
+         "SELB",
+         "VINC"
+        ]
+       }
+      },
+      {
+       "Diagnostics & Research": {
+        "children": [
+         "VIVO"
+        ]
+       }
+      },
+      {
+       "Drug Manufacturers\u2014Specialty & Generic": {
+        "children": [
+         "SNDL"
+        ]
+       }
+      },
+      {
+       "Medical Devices": {
+        "children": [
+         "ANIK",
+         "AVNS",
+         "GBS",
+         "NARI",
+         "NURO"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Industrials": {
+     "children": [
+      {
+       "Electrical Equipment & Parts": {
+        "children": [
+         "AYI"
+        ]
+       }
+      },
+      {
+       "Metal Fabrication": {
+        "children": [
+         "CRS"
+        ]
+       }
+      },
+      {
+       "Railroads": {
+        "children": [
+         "UNP"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Real Estate": {
+     "children": [
+      {
+       "REIT\u2014Diversified": {
+        "children": [
+         "STAR"
+        ]
+       }
+      },
+      {
+       "REIT\u2014Industrial": {
+        "children": [
+         "IIPR"
+        ]
+       }
+      },
+      {
+       "REIT\u2014Mortgage": {
+        "children": [
+         "FBRT",
+         "IVR"
+        ]
+       }
+      },
+      {
+       "REIT\u2014Office": {
+        "children": [
+         "CMCT"
+        ]
+       }
+      },
+      {
+       "REIT\u2014Retail": {
+        "children": [
+         "WHLR"
+        ]
+       }
+      },
+      {
+       "Real Estate Services": {
+        "children": [
+         "CSGP"
+        ]
+       }
+      },
+      {
+       "Real Estate\u2014Development": {
+        "children": [
+         "ARL"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Technology": {
+     "children": [
+      {
+       "Communication Equipment": {
+        "children": [
+         "CSCO"
+        ]
+       }
+      },
+      {
+       "Consumer Electronics": {
+        "children": [
+         "AAPL"
+        ]
+       }
+      },
+      {
+       "Electronic Components": {
+        "children": [
+         "TEL"
+        ]
+       }
+      },
+      {
+       "Information Technology Services": {
+        "children": [
+         "BBAI",
+         "IT",
+         "NABL"
+        ]
+       }
+      },
+      {
+       "Semiconductors": {
+        "children": [
+         "VSH"
+        ]
+       }
+      },
+      {
+       "Software\u2014Application": {
+        "children": [
+         "AUUD",
+         "RENN",
+         "RSSS",
+         "SEAC"
+        ]
+       }
+      },
+      {
+       "Software\u2014Infrastructure": {
+        "children": [
+         "FSRD",
+         "MSFT",
+         "QLYS"
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "Utilities": {
+     "children": [
+      {
+       "Utilities\u2014Regulated Electric": {
+        "children": [
+         "EVRG"
+        ]
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}
