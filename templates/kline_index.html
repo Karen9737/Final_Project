@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block right %}
+<!--右边展示-->
+    <h1 class="page-header">Kline</h1>
+    <div class="row" style="margin-left: 25%">
+    <form method='POST' action='' >
+    <div class="row ">
+        <div class="input-field">
+            <label for="ticker">Ticker: </label>
+            <input id="ticker" maxlength="254" name="ticker">
+            <button type="submit" name="_submit" class="btn">Search</button>
+        </div>
+    </div>
+    </form>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block right %}
+<!--右边展示-->
+    <h1 class="page-header">Wiki</h1>
+    <div class="row" style="margin-left: 25%">
+    <form method='POST' action='/wiki' >
+    <div class="row ">
+        <div class="input-field">
+            <label for="ticker">Wiki: </label>
+            <input id="ticker" maxlength="254" name="wiki">
+            <button type="submit" name="_submit" class="btn">Search</button>
+        </div>
+    </div>
+    </form>
+    </div>
+
+    <hr>
+
+    <div class="box box-primary box-body">
+        <h3>{{ wiki_info['title'] }} </h3>
+        <div class="row">
+            <div class="col-lg-12 col-xs-24">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        {% for p in wiki_info['summary'] %}
+                            <h5>{{ p }}</h5>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col-lg-12 col-xs-24">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                    <h3>Contains Following Sections: </h3>
+                        {% for s in sections %}
+                            <h4><i> * {{ s }} </i></h4>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col-lg-12 col-xs-24">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        read the <u>
+                        <a href="{{ wiki_info['url'] }}">
+                            source
+                        </a></u>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+{% endblock %}
