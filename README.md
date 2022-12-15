@@ -22,7 +22,7 @@ In yahoo_tree.json, trees are constructed from the stored data using the treelib
 ## Instructions to run the project
 •	Download the project.
 •	Make sure the listed above packages used in the project installed.
-•	Run the models.py file and app.py file in your terminal and access the URL: http://127.0.0.1:5000.
+•	Run app.py file in your terminal and access the URL: http://127.0.0.1:5000.
 •	Interact and submit requests in the website page.
 
 ## Interaction and Presentation
